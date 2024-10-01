@@ -1,12 +1,7 @@
-import type { Preset } from '@unocss/core';
-import { definePreset } from '@unocss/core';
+import { type Preset, definePreset } from '@unocss/core';
 
-export type Options = {
-	[kew: string]: unknown;
-};
-
-export const presetRyoppippi: Preset<object> = definePreset((_options: Options = {}) => {
-	return {
+export function presetRyoppippi(): Preset {
+	return definePreset({
 		name: 'unocss-preset-starter',
 
 		shortcuts: [
@@ -68,5 +63,5 @@ export const presetRyoppippi: Preset<object> = definePreset((_options: Options =
 				};
 			}],
 		],
-	};
-});
+	});
+}
