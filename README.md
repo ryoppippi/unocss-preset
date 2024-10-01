@@ -23,6 +23,11 @@ export default defineConfig({
 });
 ```
 
+## Acknowledgements
+
+- [unocss-preset-useful](https://github.com/unpreset/unocss-preset-useful) for inspiration
+- [UnoCSS](https://unocss.com) for the amazing tool
+
 ## License
 
 [MIT](./LICENSE)
