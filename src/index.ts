@@ -1,66 +1,55 @@
 import { definePreset } from '@unocss/core';
 
 export type Options = {
-	/**
-	 *  The number of columns in the grid system (Example option)
-	 *
-	 * @default 12
-	 */
-	span?: number;
+	[kew: string]: unknown;
 };
 
 export const presetRyoppippi = definePreset((_options: Options = {}) => {
-	const span = _options.span ?? 12;
-
 	return {
 		name: 'unocss-preset-starter',
 
-		theme: {
-			// Customize your theme here
-		},
-
-		// Customize your preset here
-		rules: [
-			['custom-rule', { color: 'red' }],
-			[
-				/col-(\d+)/,
-				([_, s]) => ({ width: `calc(${s} / ${span} * 100%)` }),
-				{ autocomplete: 'col-<span>' },
-			],
-		],
-
-		// Customize your variants here
-		variants: [
+		shortcuts: [
 			{
-				name: '@active',
-				match(matcher) {
-					if (!matcher.startsWith('@active')) {
-						return matcher;
-					}
-
-					return {
-						matcher: matcher.slice(8),
-						selector: s => `${s}.active`,
-					};
-				},
+				fcol: 'flex flex-col',
+				fw: 'flex flex-wrap',
+				fxc: 'flex justify-center',
+				fyc: 'flex items-center',
+				fcc: 'fxc fyc',
+				gc: 'grid place-content-center',
+				gcc: 'gc place-items-center',
 			},
+			[/^fcol-(\w+)-row$/, ([_, size]) => `fcol ${size}:flex-row`],
+			[/^gcc-(\w+)$/, ([_, flowDirection]) => `gcc grid-flow-${flowDirection}`],
 		],
 
-		// You can also define built-in presets
-		presets: [
-			// ...
-		],
+		rules: [
+			[/^sliding-animation$/, function* ([,], { symbols }) {
+				yield `
+@keyframes enter {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
 
-		// You can also define built-in transformers
-		transformers: [
-			// ...
-		],
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+`;
 
-		// Customize AutoComplete
-		autocomplete: {
-			shorthands: {
-				span: Array.from({ length: span }, (_, i) => `${i + 1}`),
-			},
-		},
+				yield {
+					'opacity': 0,
+					'animation': `enter 0.6s both`,
+					'animation-iteration-count': 1,
+					'animation-delay': `calc(var(--stagger, 0) * var(--delay, 80ms) + var(--start, 0ms))`,
+				};
+
+				yield {
+					[symbols.parent]: `@media (prefers-reduced-motion: reduce)`,
+					animation: 'none',
+				};
+			}],
+		],
 	};
 });
