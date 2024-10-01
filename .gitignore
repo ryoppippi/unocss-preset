@@ -3,3 +3,4 @@ dist
 *.log
 .vscode
 .eslintcache
+jsr.json

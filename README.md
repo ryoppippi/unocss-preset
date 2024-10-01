@@ -1,10 +1,8 @@
 # @ryoppippi/unocss-preset
 
+[![JSR](https://jsr.io/badges/@ryoppippi/unocss-preset)](https://jsr.io/@ryoppippi/unocss-preset)
+
 [@ryoppippi](https://ryoppippi.com/gh)'s opinionated [Unocss](https://unocss.com) preset.
-
-## Features
-
-- 🔥 Description of the preset
 
 ## Usage
 
