@@ -16,6 +16,8 @@ export const presetRyoppippi: Preset<object> = definePreset((_options: Options =
 				fxc: 'flex justify-center',
 				fyc: 'flex items-center',
 				fcc: 'fxc fyc',
+			},
+			{
 				gc: 'grid place-content-center',
 				gcc: 'gc place-items-center',
 			},
