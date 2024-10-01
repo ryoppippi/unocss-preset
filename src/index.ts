@@ -12,10 +12,24 @@ export const presetRyoppippi: Preset<object> = definePreset((_options: Options =
 		shortcuts: [
 			{
 				fcol: 'flex flex-col',
-				fw: 'flex flex-wrap',
-				fxc: 'flex justify-center',
-				fyc: 'flex items-center',
-				fcc: 'fxc fyc',
+				...{
+					fxc: 'flex justify-center',
+					fxs: 'flex justify-start',
+					fxe: 'flex justify-end',
+					fxb: 'flex justify-between',
+					fxa: 'flex justify-around',
+				},
+				...{
+					fyc: 'flex items-center',
+					fys: 'flex items-start',
+					fye: 'flex items-end',
+					fyb: 'flex items-baseline',
+				},
+				fcc: 'flex justify-center items-center',
+				...{
+					fw: 'flex flex-wrap',
+					fwr: 'flex flex-wrap-reverse',
+				},
 			},
 			{
 				gc: 'grid place-content-center',
