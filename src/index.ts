@@ -1,11 +1,11 @@
-import type { PresetFactory } from '@unocss/core';
+import type { Preset } from '@unocss/core';
 import { definePreset } from '@unocss/core';
 
 export type Options = {
 	[kew: string]: unknown;
 };
 
-export const presetRyoppippi: PresetFactory<object, Options> = definePreset((_options: Options = {}) => {
+export const presetRyoppippi: Preset<object> = definePreset((_options: Options = {}) => {
 	return {
 		name: 'unocss-preset-starter',
 
