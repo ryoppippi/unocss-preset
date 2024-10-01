@@ -1,0 +1,66 @@
+{
+	"name": "@ryoppippi/unocss-preset",
+	"type": "module",
+	"version": "0.0.0",
+	"packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+	"description": "@ryoppippi's opinionated Unocss preset",
+	"author": "@ryoppippi",
+	"license": "MIT",
+	"keywords": [
+		"unocss",
+		"unpreset",
+		"unocss-preset",
+		"unocss-preset-starter"
+	],
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"typesVersions": {
+		"*": {
+			"*": [
+				"./dist/*",
+				"./dist/index.d.ts"
+			]
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "unbuild",
+		"dev": "unbuild --stub",
+		"prepublishOnly": "pnpm run build",
+		"release": "bumpp --commit --push --tag && pnpm publish",
+		"lint": "eslint --cache .",
+		"format": "nr lint --fix",
+		"test": "vitest",
+		"test:update": "vitest --update"
+	},
+	"dependencies": {
+		"@unocss/core": "^0.62.3"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^0.23.0",
+		"@babel/types": "^7.25.4",
+		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.23",
+		"@types/node": "^22.5.0",
+		"@unocss/eslint-plugin": "^0.62.3",
+		"@vitejs/plugin-vue": "^5.1.2",
+		"bumpp": "^9.5.2",
+		"eslint": "^9.9.1",
+		"eslint-plugin-format": "^0.1.2",
+		"typescript": "5.5.4",
+		"unbuild": "^2.0.0",
+		"unocss": "^0.62.3",
+		"vite": "^5.4.2",
+		"vitest": "^2.0.5"
+	}
+}
