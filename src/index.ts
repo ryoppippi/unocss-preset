@@ -6,6 +6,7 @@ export function presetRyoppippi(): Preset {
 
 		shortcuts: [
 			{
+				frow: 'flex flex-row',
 				fcol: 'flex flex-col',
 				...{
 					fxc: 'flex justify-center',
