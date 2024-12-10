@@ -11,9 +11,9 @@ pnpm i -D unocss-preset-starter unocss
 ```
 
 ```ts
+import { presetRyoppippi } from '@ryoppippi/unocss-preset';
 // uno.config.ts
 import { defineConfig } from 'unocss';
-import { presetRyoppippi } from '@ryoppippi/unocss-preset';
 
 export default defineConfig({
 	presets: [
