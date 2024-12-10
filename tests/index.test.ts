@@ -3,14 +3,14 @@ import { describe, expect, it } from 'vitest';
 import { presetRyoppippi } from '../src';
 
 it('presetLength', async () => {
-	const unoPresetOnly = createGenerator({
+	const unoPresetOnly = await createGenerator({
 		presets: [presetRyoppippi()],
 	});
 	const presets = unoPresetOnly.config.presets;
 	expect(presets).toHaveLength(1);
 });
 
-const uno = createGenerator({
+const uno = await createGenerator({
 	presets: [
 		presetRyoppippi(),
 		presetUno(),
