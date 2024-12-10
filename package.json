@@ -2,7 +2,7 @@
 	"name": "@ryoppippi/unocss-preset",
 	"type": "module",
 	"version": "1.0.4",
-	"packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+	"packageManager": "pnpm@9.15.0",
 	"author": "ryoppippi",
 	"exports": "./src/index.ts",
 	"scripts": {
@@ -14,18 +14,18 @@
 		"jsr": "nlx pkg-to-jsr && nlx jsr publish"
 	},
 	"dependencies": {
-		"@unocss/core": "^0.63.1"
+		"@unocss/core": "^0.65.1"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^0.23.0",
-		"@babel/types": "^7.25.6",
+		"@antfu/ni": "^0.23.1",
+		"@babel/types": "^7.26.3",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.23",
-		"@types/node": "^22.7.4",
-		"@unocss/eslint-plugin": "^0.63.1",
-		"eslint": "^9.11.1",
-		"eslint-plugin-format": "^0.1.2",
+		"@types/node": "^22.10.1",
+		"@unocss/eslint-plugin": "^0.65.1",
+		"eslint": "~9.14.0",
+		"eslint-plugin-format": "^0.1.3",
 		"typescript": "5.5.4",
-		"unocss": "^0.63.1",
-		"vitest": "^2.1.1"
+		"unocss": "^0.65.1",
+		"vitest": "^2.1.8"
 	}
 }
