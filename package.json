@@ -14,7 +14,7 @@
 		"jsr": "nlx pkg-to-jsr && nlx jsr publish"
 	},
 	"dependencies": {
-		"@unocss/core": "^65.4.2"
+		"@unocss/core": "^65.4.3"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^23.2.0",
