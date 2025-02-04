@@ -20,7 +20,7 @@
 		"@antfu/ni": "^23.3.1",
 		"@babel/types": "^7.26.7",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
-		"@types/node": "^22.12.0",
+		"@types/node": "^22.13.0",
 		"@unocss/eslint-plugin": "^65.4.3",
 		"eslint": "~9.19.0",
 		"eslint-plugin-format": "^1.0.1",
