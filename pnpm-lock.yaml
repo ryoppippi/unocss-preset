@@ -16,7 +16,7 @@ importers:
         specifier: ^23.3.1
         version: 23.3.1
       '@babel/types':
-        specifier: ^7.26.7
+        specifier: ^7.26.8
         version: 7.26.8
       '@ryoppippi/eslint-config':
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.25
