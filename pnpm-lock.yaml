@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@unocss/core':
-        specifier: ^65.4.3
-        version: 65.4.3
+        specifier: ^65.5.0
+        version: 65.5.0
     devDependencies:
       '@antfu/ni':
         specifier: ^23.3.1
@@ -775,6 +775,9 @@ packages:
 
   '@unocss/core@65.4.3':
     resolution: {integrity: sha512-luFgdcchSlNrYSaDvU2176T2PPQZdxqfREVbxEXNXlFEgyEFrx5hOSUXoJtJSZjRhAcE6zkWyLDf/JkQJ5Eeyw==}
+
+  '@unocss/core@65.5.0':
+    resolution: {integrity: sha512-XYWdS09M2XOjZNDotGhI2TIW/6duLNiyssopwjCbv4AlPklF0bZI86SKI55syYDBt6GRadoQbuvUkhSiTV/hzQ==}
 
   '@unocss/eslint-plugin@65.4.3':
     resolution: {integrity: sha512-uK6WpZPy/zJxunw4lh51KjIO370SRAIFlvg/Knh4Kl5214xiJDezKp7F7NATVBx+JqSf7iHYn2qUdB8Z8I7sXg==}
@@ -2964,6 +2967,8 @@ snapshots:
 
   '@unocss/core@65.4.3': {}
 
+  '@unocss/core@65.5.0': {}
+
   '@unocss/eslint-plugin@65.4.3(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/utils': 8.23.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
@@ -3052,7 +3057,7 @@ snapshots:
 
   '@unocss/rule-utils@65.4.3':
     dependencies:
-      '@unocss/core': 65.4.3
+      '@unocss/core': 65.5.0
       magic-string: 0.30.17
 
   '@unocss/transformer-attributify-jsx@65.4.3':
