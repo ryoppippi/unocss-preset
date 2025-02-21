@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@unocss/core':
-        specifier: ^65.5.0
-        version: 65.5.0
+        specifier: ^66.0.0
+        version: 66.0.0
     devDependencies:
       '@antfu/ni':
         specifier: ^23.3.1
@@ -791,6 +791,9 @@ packages:
 
   '@unocss/core@65.5.0':
     resolution: {integrity: sha512-XYWdS09M2XOjZNDotGhI2TIW/6duLNiyssopwjCbv4AlPklF0bZI86SKI55syYDBt6GRadoQbuvUkhSiTV/hzQ==}
+
+  '@unocss/core@66.0.0':
+    resolution: {integrity: sha512-PdVbSMHNDDkr++9nkqzsZRAkaU84gxMTEgYbqI7dt2p1DXp/5tomVtmMsr2/whXGYKRiUc0xZ3p4Pzraz8TcXA==}
 
   '@unocss/eslint-plugin@65.5.0':
     resolution: {integrity: sha512-4VDmV8MoJls3L8MeJrHf0DvfUS3HL6ntiITdqtfoO5opqEw5kdhPUW7D9PYPE6vwuYDkTPjl3y/tOR92tvCn0A==}
@@ -2992,6 +2995,8 @@ snapshots:
       unconfig: 7.0.0
 
   '@unocss/core@65.5.0': {}
+
+  '@unocss/core@66.0.0': {}
 
   '@unocss/eslint-plugin@65.5.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)':
     dependencies:
