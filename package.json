@@ -2,7 +2,7 @@
 	"name": "@ryoppippi/unocss-preset",
 	"type": "module",
 	"version": "1.0.7",
-	"packageManager": "pnpm@10.5.2",
+	"packageManager": "pnpm@10.6.0",
 	"author": "ryoppippi",
 	"exports": "./src/index.ts",
 	"scripts": {
