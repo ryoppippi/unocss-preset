@@ -23,7 +23,7 @@
 		"src"
 	],
 	"scripts": {
-		"build": "unbuild",
+		"build": "unbuild --sourcemap",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"typecheck": "tsc --noEmit",
