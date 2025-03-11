@@ -4,13 +4,26 @@
 	"version": "1.0.8",
 	"packageManager": "pnpm@10.6.1",
 	"author": "ryoppippi",
-	"exports": "./src/index.ts",
+	"exports": {
+		".": {
+			"type": "./dist/index.d.mts",
+			"default": "./dist/index.mjs"
+		},
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"dist",
+		"src"
+	],
 	"scripts": {
+		"build": "unbuild",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
+		"typecheck": "tsc --noEmit",
 		"test": "vitest",
 		"test:update": "vitest --update",
-		"release": "nr lint && nlx bumpp"
+		"prepublishOnly": "nr build",
+		"release": "nr lint && nr typecheck && nlx publint && nlx bumpp && pnpm publish"
 	},
 	"peerDependencies": {
 		"unocss": ">=0.56.0 < 101"
@@ -24,6 +37,7 @@
 		"eslint": "~9.22.0",
 		"eslint-plugin-format": "^1.0.1",
 		"typescript": "5.8.2",
+		"unbuild": "^3.5.0",
 		"unocss": "^66.0.0",
 		"vitest": "^3.0.8"
 	}

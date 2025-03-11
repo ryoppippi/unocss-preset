@@ -12,7 +12,8 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"sourceMap": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"isolatedDeclarations": true
 	},
 	"exclude": [
 		"**/dist/**",
