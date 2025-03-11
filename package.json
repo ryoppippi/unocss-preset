@@ -10,8 +10,7 @@
 		"format": "nr lint --fix",
 		"test": "vitest",
 		"test:update": "vitest --update",
-		"release": "nr lint && nlx bumpp",
-		"jsr": "nlx pkg-to-jsr && nlx jsr publish"
+		"release": "nr lint && nlx bumpp"
 	},
 	"dependencies": {
 		"@unocss/core": "^66.0.0",

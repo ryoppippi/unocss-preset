@@ -1,13 +1,14 @@
 # @ryoppippi/unocss-preset
 
-[![JSR](https://jsr.io/badges/@ryoppippi/unocss-preset)](https://jsr.io/@ryoppippi/unocss-preset)
+[![npm version](https://img.shields.io/npm/v/@ryoppippi/unocss-preset?color=yellow)](https://npmjs.com/package/@ryoppippi/unocss-preset)
+[![npm downloads](https://img.shields.io/npm/dm/@ryoppippi/unocss-preset?color=yellow)](https://npmjs.com/package/@ryoppippi/unocss-preset)
 
 [@ryoppippi](https://ryoppippi.com/gh)'s opinionated [Unocss](https://unocss.com) preset.
 
 ## Usage
 
 ```shell
-pnpm i -D unocss-preset-starter unocss
+pnpm i -D @ryoppippi/unocss-preset unocss
 ```
 
 ```ts
