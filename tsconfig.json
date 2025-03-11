@@ -13,7 +13,7 @@
 		"noUnusedParameters": true,
 		"sourceMap": true,
 		"esModuleInterop": true,
-		"isolatedDeclarations": true
+		"skipLibCheck": true
 	},
 	"exclude": [
 		"**/dist/**",

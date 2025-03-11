@@ -6,6 +6,6 @@ import { presetRyoppippi } from './src';
 export default defineConfig({
 	presets: [
 		presetUno(),
-		presetRyoppippi({ }),
+		presetRyoppippi(),
 	],
 });
