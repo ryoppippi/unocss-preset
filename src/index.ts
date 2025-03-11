@@ -1,4 +1,5 @@
-import { definePreset, type Preset } from '@unocss/core';
+import type { Preset } from 'unocss';
+import { definePreset } from 'unocss';
 
 export function presetRyoppippi(): Preset {
 	return definePreset({
