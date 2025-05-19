@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@antfu/ni':
-        specifier: ^24.3.0
+        specifier: ^24.4.0
         version: 24.4.0
       '@babel/types':
         specifier: ^7.27.1
