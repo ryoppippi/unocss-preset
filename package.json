@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"@antfu/ni": "^25.0.0",
-		"@babel/types": "^7.27.3",
+		"@babel/types": "^7.27.6",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@types/node": "^22.15.29",
 		"@unocss/eslint-plugin": "^66.1.3",
