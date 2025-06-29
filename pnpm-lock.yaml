@@ -21,7 +21,7 @@ importers:
         specifier: ^24.0.4
         version: 24.0.6
       '@unocss/eslint-plugin':
-        specifier: ^66.3.1
+        specifier: ^66.3.2
         version: 66.3.2(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       eslint:
         specifier: ~9.29.0
@@ -3313,7 +3313,7 @@ snapshots:
 
   '@stylistic/eslint-plugin@2.13.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/utils': 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.29.0(jiti@2.4.2)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -3391,8 +3391,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.34.1(typescript@5.8.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.34.1(typescript@5.8.3)
-      '@typescript-eslint/types': 8.34.1
+      '@typescript-eslint/tsconfig-utils': 8.35.0(typescript@5.8.3)
+      '@typescript-eslint/types': 8.35.0
       debug: 4.4.1
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -3730,7 +3730,7 @@ snapshots:
 
   '@vitest/eslint-plugin@1.2.7(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.0.6)(jiti@2.4.2)(yaml@2.8.0))':
     dependencies:
-      '@typescript-eslint/utils': 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.29.0(jiti@2.4.2)
     optionalDependencies:
       typescript: 5.8.3
@@ -4297,7 +4297,7 @@ snapshots:
   eslint-plugin-n@17.20.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.29.0(jiti@2.4.2))
-      '@typescript-eslint/utils': 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       enhanced-resolve: 5.18.1
       eslint: 9.29.0(jiti@2.4.2)
       eslint-plugin-es-x: 7.8.0(eslint@9.29.0(jiti@2.4.2))
@@ -4316,7 +4316,7 @@ snapshots:
   eslint-plugin-perfectionist@4.15.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
       '@typescript-eslint/types': 8.34.1
-      '@typescript-eslint/utils': 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
+      '@typescript-eslint/utils': 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.29.0(jiti@2.4.2)
       natural-orderby: 5.0.0
     transitivePeerDependencies:
