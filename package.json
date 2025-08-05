@@ -45,7 +45,7 @@
 		"eslint-plugin-format": "^1.0.1",
 		"typescript": "5.9.2",
 		"unbuild": "^3.6.0",
-		"unocss": "^66.3.3",
+		"unocss": "^66.4.0",
 		"vitest": "^3.2.4"
 	},
 	"pnpm": {
