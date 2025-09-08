@@ -12,7 +12,7 @@ importers:
         specifier: ^25.0.0
         version: 25.0.0
       '@babel/types':
-        specifier: ^7.28.2
+        specifier: ^7.28.4
         version: 7.28.4
       '@ryoppippi/eslint-config':
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.25
