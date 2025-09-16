@@ -2,7 +2,7 @@
 	"name": "@ryoppippi/unocss-preset",
 	"type": "module",
 	"version": "2.0.1",
-	"packageManager": "pnpm@10.16.0",
+	"packageManager": "pnpm@10.16.1",
 	"author": "ryoppippi",
 	"license": "MIT",
 	"repository": "https://github.com/ryoppippi/unocss-preset.git",
