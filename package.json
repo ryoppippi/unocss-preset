@@ -39,7 +39,7 @@
 		"@antfu/ni": "^26.1.0",
 		"@babel/types": "^7.28.4",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
-		"@types/node": "^24.6.2",
+		"@types/node": "^24.7.0",
 		"@unocss/eslint-plugin": "^66.5.2",
 		"eslint": "~9.37.0",
 		"eslint-plugin-format": "^1.0.2",
