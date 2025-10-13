@@ -36,7 +36,7 @@ importers:
         specifier: ^3.6.1
         version: 3.6.1(typescript@5.9.3)
       unocss:
-        specifier: ^66.5.2
+        specifier: ^66.5.3
         version: 66.5.3(postcss@8.5.6)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)(yaml@2.8.1))
       vitest:
         specifier: ^3.2.4
@@ -2894,14 +2894,14 @@ snapshots:
   '@babel/template@7.27.2':
     dependencies:
       '@babel/code-frame': 7.27.1
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.4
       '@babel/types': 7.28.4
 
   '@babel/traverse@7.27.7':
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/generator': 7.28.3
-      '@babel/parser': 7.27.7
+      '@babel/parser': 7.28.4
       '@babel/template': 7.27.2
       '@babel/types': 7.28.4
       debug: 4.4.3
