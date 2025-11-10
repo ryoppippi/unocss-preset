@@ -21,7 +21,7 @@ importers:
         specifier: ^24.10.0
         version: 24.10.0
       '@unocss/eslint-plugin':
-        specifier: ^66.5.4
+        specifier: ^66.5.5
         version: 66.5.5(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint:
         specifier: ~9.39.1
