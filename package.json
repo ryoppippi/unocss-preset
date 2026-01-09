@@ -36,7 +36,7 @@
 		"unocss": ">=0.56.0 < 101"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^28.0.0",
+		"@antfu/ni": "^28.1.0",
 		"@babel/types": "^7.28.5",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@types/node": "^25.0.3",
