@@ -41,7 +41,7 @@
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@types/node": "^26.0.1",
 		"@unocss/eslint-plugin": "^66.7.3",
-		"eslint": "~9.39.4",
+		"eslint": "~10.6.0",
 		"eslint-plugin-format": "^2.0.1",
 		"typescript": "6.0.3",
 		"unbuild": "^3.6.1",
