@@ -36,7 +36,7 @@ importers:
         specifier: ^3.6.1
         version: 3.6.1(typescript@6.0.3)
       unocss:
-        specifier: ^66.7.3
+        specifier: ^66.7.4
         version: 66.7.4(vite@7.2.2(@types/node@26.0.1)(jiti@2.6.1)(yaml@2.8.1))
       vitest:
         specifier: ^4.1.9
@@ -5483,7 +5483,7 @@ snapshots:
       postcss: 8.5.6
       postcss-nested: 7.0.2(postcss@8.5.6)
       semver: 7.7.3
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     optionalDependencies:
       typescript: 6.0.3
 
