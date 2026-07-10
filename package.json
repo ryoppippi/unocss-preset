@@ -46,7 +46,7 @@
 		"typescript": "6.0.3",
 		"unbuild": "^3.6.1",
 		"unocss": "^66.7.5",
-		"vitest": "^4.1.9"
+		"vitest": "^4.1.10"
 	},
 	"pnpm": {
 		"executionEnv": {
