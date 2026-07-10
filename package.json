@@ -40,7 +40,7 @@
 		"@babel/types": "^8.0.0",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@types/node": "^26.1.0",
-		"@unocss/eslint-plugin": "^66.7.4",
+		"@unocss/eslint-plugin": "^66.7.5",
 		"eslint": "~9.39.4",
 		"eslint-plugin-format": "^2.0.1",
 		"typescript": "6.0.3",
