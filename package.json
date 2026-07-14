@@ -43,7 +43,7 @@
 		"@unocss/eslint-plugin": "^66.7.5",
 		"eslint": "~9.39.5",
 		"eslint-plugin-format": "^2.0.1",
-		"typescript": "6.0.3",
+		"typescript": "7.0.2",
 		"unbuild": "^3.6.1",
 		"unocss": "^66.7.5",
 		"vitest": "^4.1.10"
