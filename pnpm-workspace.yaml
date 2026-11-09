@@ -1,0 +1,4 @@
+ignoreWorkspaceRootCheck: true
+allowBuilds:
+  esbuild: true
+  unrs-resolver: false

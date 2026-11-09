@@ -2,7 +2,7 @@
 	"name": "@ryoppippi/unocss-preset",
 	"type": "module",
 	"version": "2.0.1",
-	"packageManager": "pnpm@10.34.5",
+	"packageManager": "pnpm@12.18.0",
 	"author": "ryoppippi",
 	"license": "MIT",
 	"repository": "https://github.com/ryoppippi/unocss-preset.git",
@@ -41,19 +41,11 @@
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@types/node": "^26.1.2",
 		"@unocss/eslint-plugin": "^66.7.5",
-		"eslint": "~10.8.0",
+		"eslint": "~9.39.5",
 		"eslint-plugin-format": "^2.0.1",
 		"typescript": "6.0.3",
 		"unbuild": "^3.6.1",
 		"unocss": "^66.7.5",
 		"vitest": "^4.1.10"
-	},
-	"pnpm": {
-		"executionEnv": {
-			"nodeVersion": "22.14.0"
-		},
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
 	}
 }
