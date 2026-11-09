@@ -47,13 +47,5 @@
 		"unbuild": "^3.6.1",
 		"unocss": "^66.7.5",
 		"vitest": "^4.1.10"
-	},
-	"pnpm": {
-		"executionEnv": {
-			"nodeVersion": "22.14.0"
-		},
-		"onlyBuiltDependencies": [
-			"esbuild"
-		]
 	}
 }
