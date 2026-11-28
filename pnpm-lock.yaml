@@ -195,7 +195,7 @@ importers:
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.25
         version: '@jsr/ryoppippi__eslint-config@0.0.25(@typescript-eslint/utils@8.72.1(eslint@9.39.5(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(@unocss/eslint-plugin@66.13.0(eslint@9.39.5(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@9.39.5(jiti@2.6.1)(supports-color@7.2.0)))(eslint@9.39.5(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)(vitest@5.1.1(@types/node@26.6.11)(vite@7.2.2(@types/node@26.6.11)(jiti@2.6.1)(yaml@2.8.1)))'
       '@types/node':
-        specifier: ^26.6.7
+        specifier: ^26.6.10
         version: 26.6.11
       '@unocss/eslint-plugin':
         specifier: ^66.13.0
